@@ -1,4 +1,4 @@
-# Building the Eclipse RAP e4 demo project built with Maven Tycho
+# Building the Eclipse RAP e4 demo project with Maven Tycho
 
 This is a demonstration / help project that builds the Eclipse `RAP e4 Template` aka Eclipse e4 demo project using Maven Tycho.
 It uses the Eclipse RAP e4 [RAP Target Components](https://www.eclipse.org/rap/downloads/) in version RAP 3.11 December 2019 (2019-12).
