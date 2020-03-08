@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="RAP" sequenceNumber="1583699636">
+  <locations>
+    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.rap.e4.sdk.feature.feature.group" version="3.11.0.20191127-1205"/>
+      <unit id="org.eclipse.rap.e4.equinox.target.feature.feature.group" version="3.11.0.20191211-1200"/>
+      <unit id="org.eclipse.rap.e4.feature.feature.group" version="3.11.0.20191127-1205"/>
+      <repository location="http://download.eclipse.org/rt/rap/3.11/e4"/>
+    </location>
+    <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.rap.dropdown.feature.feature.group" version="0.3.0.20161122-1051"/>
+      <unit id="org.eclipse.rap.richtext.feature.feature.group" version="0.2.0.20150623-1041"/>
+      <unit id="org.eclipse.rap.addons.chart.feature.feature.group" version="0.1.0.20160622-0732"/>
+      <repository location="https://download.eclipse.org/rt/rap/incubator/3.2/"/>
+    </location>
+  </locations>
+</target>
