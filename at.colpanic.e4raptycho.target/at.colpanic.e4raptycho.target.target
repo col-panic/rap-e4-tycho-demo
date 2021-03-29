@@ -4,16 +4,73 @@
 <target name="RAP" sequenceNumber="1583699636">
   <locations>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.rap.e4.sdk.feature.feature.group" version="3.11.0.20191127-1205"/>
-      <unit id="org.eclipse.rap.e4.equinox.target.feature.feature.group" version="3.11.0.20191211-1200"/>
-      <unit id="org.eclipse.rap.e4.feature.feature.group" version="3.11.0.20191127-1205"/>
-      <repository location="http://download.eclipse.org/rt/rap/3.11/e4"/>
+		<unit id="org.eclipse.rap.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.rap.sdk.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.rap.examples.feature.feature.group" version="0.0.0"/>
+		<unit id="org.eclipse.rap.equinox.target.feature.feature.group" version="0.0.0"/>
+		<unit id="com.ibm.icu" version="0.0.0"/>
+        <unit id="javax.servlet" version="0.0.0"/>
+        <unit id="org.apache.commons.jxpath" version="0.0.0"/>
+        <unit id="org.apache.felix.gogo.command" version="0.0.0"/>
+        <unit id="org.apache.felix.gogo.runtime" version="0.0.0"/>
+        <unit id="org.apache.felix.gogo.shell" version="0.0.0"/>
+        <unit id="org.eclipse.core.commands" version="0.0.0"/>
+        <unit id="org.eclipse.core.contenttype" version="0.0.0"/>
+        <unit id="org.eclipse.core.databinding.beans" version="0.0.0"/>
+        <unit id="org.eclipse.core.databinding.observable" version="0.0.0"/>
+        <unit id="org.eclipse.emf.common" version="0.0.0"/>
+        <unit id="org.eclipse.emf.ecore" version="0.0.0"/>
+        <unit id="org.eclipse.emf.ecore.xmi" version="0.0.0"/>
+        <unit id="org.eclipse.emf.ecore.change" version="0.0.0"/>
+        <unit id="org.eclipse.core.databinding.property" version="0.0.0"/>
+        <unit id="org.eclipse.core.databinding" version="0.0.0"/>
+        <unit id="org.eclipse.core.expressions" version="0.0.0"/>
+        <unit id="org.eclipse.core.jobs" version="0.0.0"/>
+        <unit id="org.eclipse.core.runtime" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.app" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.common" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.console" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.event" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.http.jetty" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.http.servlet" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.preferences" version="0.0.0"/>
+        <unit id="org.eclipse.equinox.registry" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.continuation" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.io" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.security" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.server" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.servlet" version="0.0.0"/>
+        <unit id="org.eclipse.jetty.util" version="0.0.0"/>
+        <unit id="org.eclipse.osgi.services" version="0.0.0"/>
+        <unit id="org.eclipse.osgi.util" version="0.0.0"/>
+        <unit id="org.eclipse.osgi" version="0.0.0"/>
+        <unit id="org.eclipse.rap.jface.databinding" version="0.0.0"/>
+        <unit id="org.eclipse.rap.jface" version="0.0.0"/>
+        <unit id="org.eclipse.rap.rwt.osgi" version="0.0.0"/>
+        <unit id="org.eclipse.rap.rwt" version="0.0.0"/> 
+        <unit id="org.eclipse.rap.rwt" version="0.0.0"/> 
+        <unit id="javax.inject" version="0.0.0"/>
+        <unit id="javax.annotation" version="0.0.0"/>
+      <repository location="http://download.eclipse.org/releases/2021-03"/>
     </location>
     <location includeMode="slicer" includeAllPlatforms="true" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.eclipse.rap.dropdown.feature.feature.group" version="0.3.0.20161122-1051"/>
-      <unit id="org.eclipse.rap.richtext.feature.feature.group" version="0.2.0.20150623-1041"/>
-      <unit id="org.eclipse.rap.addons.chart.feature.feature.group" version="0.1.0.20160622-0732"/>
-      <repository location="https://download.eclipse.org/rt/rap/incubator/3.2/"/>
+		<unit id="org.eclipse.rap.e4" version="0.0.0"/>
+		<unit id="org.eclipse.e4.core.contexts" version="0.0.0"/>
+	    <unit id="org.eclipse.e4.core.di.extensions.supplier" version="0.0.0"/>
+		<unit id="org.eclipse.e4.core.di" version="0.0.0"/>
+	    <unit id="org.eclipse.e4.ui.di" version="0.0.0"/>
+        <unit id="org.eclipse.e4.core.di.extensions" version="0.0.0"/>
+        <unit id="org.eclipse.e4.core.di.annotations" version="0.0.0"/>
+        <unit id="org.eclipse.e4.core.services" version="0.0.0"/>
+        <unit id="org.eclipse.e4.core.commands" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.bindings" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.model.workbench" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.workbench" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.workbench.swt" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.services" version="0.0.0"/>
+        <unit id="org.eclipse.e4.emf.xpath" version="0.0.0"/>
+        <unit id="org.eclipse.e4.ui.workbench.renderers.swt" version="0.0.0"/> 
+        <repository location="https://download.eclipse.org/rt/rap/3.16/e4/RC2-20210310-0041/"/>
     </location>
   </locations>
 </target>
