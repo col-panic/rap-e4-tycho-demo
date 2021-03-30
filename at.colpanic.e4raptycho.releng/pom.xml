@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>1.1.0</tycho-version>
+		<tycho-version>2.2.0</tycho-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho-extras.version>${tycho-version}</tycho-extras.version>
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
@@ -38,14 +38,20 @@
 					<encoding>${project-build-sourceEncoding}</encoding>
 				</configuration>
 			</plugin>
-
+			<plugin>
+				<groupId>${tycho-groupid}</groupId>
+				<artifactId>tycho-packaging-plugin</artifactId>
+			    <version>${tycho-version}</version>
+				<configuration>
+					<deployableFeature>true</deployableFeature>
+				</configuration>
+			</plugin>
 			<plugin>
 				<groupId>${tycho-groupid}</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
 					<resolver>p2</resolver>
-					<ignoreTychoRepositories>true</ignoreTychoRepositories>
 					<target>
 						<artifact>
 							<groupId>at.colpanic.e4raptycho</groupId>

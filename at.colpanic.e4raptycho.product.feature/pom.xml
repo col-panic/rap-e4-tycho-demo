@@ -21,15 +21,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>${tycho-groupid}</groupId>
-				<artifactId>tycho-packaging-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<configuration>
-					<deployableFeature>true</deployableFeature>
-				</configuration>
-			</plugin>
-
-			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.1.0</version>
 				<executions>
